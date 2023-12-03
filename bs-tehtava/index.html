@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        
+
+        
+
+    </head>
+    
+    
+    <body>
+        <header>
+            <nav class="py-2 bg-light border-bottom">
+                <div class="container d-flex flex-wrap">
+                  <ul class="nav me-auto">
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Koti</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Kiilloitusaineet</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Suutari</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Kaikki kengistä</a></li>
+                  </ul>
+                  <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Kengät jalkaan</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Riisu kengät</a></li>
+                  </ul>
+                </div>
+              </nav>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Buutsikiinnikeharjoitus, jipii!</h1>
+                    <h2>Kaikenlaisia jalkineita</h2>
+                    
+                </div>
+            </div>
+
+        </header>
+
+
+        
+
+        <nav>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="/buutsi.htlm" class="btn btn-primary btn-lg px-4">Buutsit</a>
+
+                    <p>Tästä pääset katselemaan komeita saappaita.</p>
+                
+                </div>
+                <div class="col-md-6">
+                    <a href="/kiinnike.htlm" class="btn btn-primary btn-lg px-4">Kiinnikkeet</a>
+
+                    <p>Tässä puolestaan on juttua kiinnikkeistä.</p>
+                
+                
+                </div>
+        </nav>
+
+        <main>
+            <article>
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('sand.jpeg');">
+                              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Kyllä Bootstrapille</h2>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                  <li class="me-auto">
+                                    <img src="jalkine.jpg" alt="Kenkää jalkaan" width="32" height="32" class="rounded-circle border border-white">
+                                  </li>
+                                  <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>Saapaslandia</small>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>4d</small>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                
+                    <h3>Mutta miksi?</h3>
+                            <ol>
+                                <li>Responsiivinen</li>
+                                <li>Laaja käyttäjä- ja tukiverkosto</li>
+                                <li>Laaja kirjasto</li>
+                                <li>Nopeasti valmista</li>
+                                <li>Tyylikäs ulkoasu</li>
+                                <li>Kustomoitavissa</li>
+                                
+                            </ol>
+                            <p>Tuomareista seuraavat puolsivat BS:ää: Kiireinen, Perussiisti</p>
+                            <p>Tuomareista seuraavat eivät puoltaneet BS:ää: Yksilöllinen, Monimutkainensivu</p>
+                            <p>Portfoliosivu ei valinnut puolta.</p>
+
+                    </div>
+                    
+                        
+                    
+                        <div class="col-md-8">
+                            <div class="px-4 py-5 my-5 text-center">
+                                
+                                <h1 class="display-5 fw-bold">Ei bootstrapille</h1>
+                                <div class="col-lg-6 mx-auto">
+                                  <p class="lead mb-4">
+                                    <ol>
+                                    <li>Ei yksilöllinen, olla vaikea kustomoida</li>
+                                    <li>Voi olla ylimääräistä koodia (hidastaa)</li>
+                                    <li>Ei välttämättä toimi kaikissa projekteissa</li>
+                                    <li>Oppimiseen menee aikaa</li>
+                                    <li>Riippuvainen kolmannen osapuolen päivityksistä</li>
+                                    <li>Kolmannen osapuolen päivitykset, voi rikkoa sivut (harvinaista)</li>
+                                    <li>Bootstrapin komponentit eivät välttämättä aina toimi kaikissa selaimissa (harvinaista)</li>
+                                </ol>
+                                </p>
+                                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sano Juu</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sano Ei</button>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                            
+
+                            
+
+
+                        </div>
+                            
+                        
+
+                    
+                    </div>
+            </article>
+            <aside>
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Ilmaiseksi!</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Kenkiä<small class="text-muted fw-light">/jalka</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                              <li>20 kiloa kenkiä</li>
+                              <li>No strings attached!</li>
+                              <li>kirjaimellisesti, näissä ei ole kengännauhoja</li>
+                              <li>sori siitä!</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Tästä ilmaiskegät</button>
+                          </div>
+                        </div>
+                      </div>
+
+                
+                </div>
+            
+                    
+                
+                    <div class="col-md-3">
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                              <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Ilmaiseksi!</h4>
+                              </div>
+                              <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Kenkiä<small class="text-muted fw-light">/jalka</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                  <li>20 kiloa kenkiä</li>
+                                  <li>No strings attached!</li>
+                                  <li>kirjaimellisesti, näissä ei ole kengännauhoja</li>
+                                  <li>sori siitä!</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Tästä ilmaiskegät</button>
+                              </div>
+                            </div>
+                          </div>
+
+                    
+                    </div>
+
+
+                
+                    <div class="col-md-3">
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                              <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Ilmaiseksi!</h4>
+                              </div>
+                              <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Kenkiä<small class="text-muted fw-light">/jalka</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                  <li>20 kiloa kenkiä</li>
+                                  <li>No strings attached!</li>
+                                  <li>kirjaimellisesti, näissä ei ole kengännauhoja</li>
+                                  <li>sori siitä!</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Tästä ilmaiskegät</button>
+                              </div>
+                            </div>
+                          </div>
+
+                    
+                    </div>
+
+
+                
+                    <div class="col-md-3">
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                              <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Ilmaiseksi!</h4>
+                              </div>
+                              <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Kenkiä<small class="text-muted fw-light">/jalka</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                  <li>20 kiloa kenkiä</li>
+                                  <li>No strings attached!</li>
+                                  <li>kirjaimellisesti, näissä ei ole kengännauhoja</li>
+                                  <li>sori siitä!</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Tästä ilmaiskegät</button>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+                </aside>
+
+        </main>
+
+        <footer>
+            <footer class="footer mt-auto py-3 bg-light">
+                <div class="container">
+                  <span class="text-muted">Bootworks 8007 AD</span>
+                </div>
+              </footer>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </html>

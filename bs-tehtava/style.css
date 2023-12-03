@@ -1,0 +1,132 @@
+
+/* tämä on sitten pirun ruma :DDDD */
+
+html { 
+	
+	
+	background: #fefae0; 
+	
+
+	font-family: 'Karla', sans;
+	font-family: 'Merriweather', serif;
+}
+
+header h1 { 
+	
+    padding: 20px;
+    text-align: center;
+    font-family: 'Karla', sans;
+    color: #283618;
+}
+
+header h2 { 
+	
+    
+    font-family: 'Karla', sans;
+    color: #283618;
+}
+
+article h3 { 
+	
+    padding: 25px;
+    font-family: 'Karla', sans;
+    color: #283618;
+}
+
+.btn {
+    color: #48502A;
+    background-color: #fefae0;
+    border: none
+}
+
+.btn:hover {
+
+    color: #fefae0;
+    background-color: #48502A;
+    border: none
+}
+
+header {
+    font-family: 'Karla', sans;
+	background-color: #fefae0;
+	padding: 15px;
+
+}
+
+nav {
+    font-family: 'Karla', sans;
+	background-color: #DDA15E;
+	padding: 15px;
+
+}
+
+
+article {
+	
+    
+    font-family: 'Merriweather', serif;
+	background-color: #fefae0;
+
+	padding: 50px;
+	margin: 15px;
+}
+
+article p { 
+
+	color: #151c0d;
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+
+}
+
+aside {
+
+    background-color: #DDA15E;
+}
+
+.col {
+
+    font-family: 'Karla', sans;
+    background-color: #151c0d;
+    padding: 15px;
+    border-radius: 30px;
+    
+
+}
+
+.card {
+    background-color: #48502A;
+    font: 'Karla', sans;
+    color: #fefae0;
+}
+
+.card-body {
+
+    font-family: 'Merriweather', serif;
+    color: #283618;
+    background-color: #fefae0;
+}
+
+.w-100 {
+    color: #283618;
+    background-color: #DDA15E;
+    
+}
+
+.w-100 :hover {
+    background-color: #fefae0;
+    color: #DDA15E;
+
+    /*tämä ei toiminut, mutta en oikein tajua, miksi*/
+}
+
+
+footer {
+
+	padding-top: 35px;
+	margin-top: 35px;
+
+	background-color: #DDA15E;
+
+	text-align: left;
+}
