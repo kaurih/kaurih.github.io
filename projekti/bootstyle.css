@@ -1,0 +1,198 @@
+
+
+
+html { 
+	
+	
+	font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+    background-color: EBEBEB;
+
+    max-width: 100%;
+ 
+}
+
+header h1 { 
+	
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 800;
+
+    padding: 30px;
+
+
+    color: #0F433D;
+}
+
+header h2 { 
+	
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 500;
+
+    color: #0F433D;
+}
+
+article h3 { 
+	
+    padding: 25px;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 200;
+
+    color: #0F433D;
+}
+
+.btn {
+    color: #EBEBEB;
+    background-color: #1E201D;
+    border: 3px solid transparent;
+    border-radius: 2px;
+}
+
+.btn:hover {
+
+    color: #151c0d;
+    background-color: #EBEBEB;
+    border: 3px solid #151c0d;
+    border-radius: 2px;
+}
+
+header {
+
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400;
+
+
+    color: #1E201D; 
+	background: rgb(173,173,173);
+    background: linear-gradient(0deg, rgba(173,173,173,1) 0%, rgba(235,235,235,1) 50%);
+	border-bottom: 3px solid #575C55;
+
+
+    min-height: 300px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 40px;
+
+    
+
+}
+
+
+nav {
+
+    display: flex; flex-wrap: wrap; justify-content: space-evenly;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 300;
+    padding: 20px;
+
+    color: #0F433D;
+
+
+
+}
+
+
+article {
+
+    
+	
+    
+    font-family: 'Montserrat', sans-serif;
+	background-color: transparent;
+
+    border: 3px solid #1A746A;
+
+	padding: 50px;
+	margin: 50px;
+}
+
+article p { 
+
+	color: #151c0d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+
+}
+
+aside {
+
+    display: flex; flex-wrap: wrap; justify-content: space-evenly;
+
+    background: rgb(26,116,106);
+    background: linear-gradient(0deg, rgba(26,116,106,0) 0%, rgba(26,116,106,1) 5%);
+}
+
+.col {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0F433D;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 3px;
+    
+
+
+}
+
+
+
+.card {
+
+
+    min-height: 75%;
+
+    margin: 10px;
+
+    background-color: #1A746A;
+    
+    color: #EBEBEB;
+
+    
+}
+
+.card-body {
+    
+
+    font-family: 'Montserrat', serif;
+
+    padding: 5px;
+    
+    background-color: transparent;
+}
+
+.w-100 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0F433D;
+    background-color: #EBEBEB;
+    max-width: 60%;
+}
+
+.w-100:hover {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #CCCCCC;
+    color: #1E201D;
+    max-width: 75%;
+
+}
+
+
+footer {
+
+    font-family: 'Barlow Condensed', sans-serif;
+
+    text-align: left;
+
+	padding-top: 35px;
+	margin-top: 35px;
+
+	color: #1E201D;
+   
+
+	text-align: left;
+}
+

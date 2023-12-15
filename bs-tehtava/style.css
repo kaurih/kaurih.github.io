@@ -113,11 +113,11 @@ aside {
     
 }
 
-.w-100 :hover {
+.w-100:hover {
     background-color: #fefae0;
     color: #DDA15E;
 
-    /*tämä ei toiminut, mutta en oikein tajua, miksi*/
+    
 }
 
 
@@ -130,3 +130,11 @@ footer {
 
 	text-align: left;
 }
+
+
+
+
+
+
+
+
